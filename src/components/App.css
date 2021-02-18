@@ -1,0 +1,14 @@
+.Navigation-list {
+  display: flex;
+  list-style: none;
+}
+
+.Navigation-link {
+  color: black;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.Navigation-link-active {
+  color: red;
+}
