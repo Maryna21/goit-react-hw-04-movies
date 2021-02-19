@@ -26,7 +26,7 @@ export default class Cast extends Component {
                 {cast.length>0 &&
                     (<ul>
                     {cast.map(actor => (<li key={actor.id}>
-                        <img src={`${imgUrl}${actor.profile_path}`} />
+                        <img src={`${imgUrl}${actor.profile_path}`} alt={actor.name}/>
                         <p>{actor.name}</p>
                         <p>Character:{actor.character}</p>
                     </li>))}
